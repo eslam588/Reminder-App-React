@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+ background-color: #831111;
+}
+
+.App {
+  width:60%;
+  border-radius: 17px;
+  padding: 10px;
+  background-color: #153466;
+  margin: 27px auto;
+  box-shadow: 5px 10px 10px #000;
+}
+.App img {
+  width: 27%;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.closeIcon{
+    position: absolute;
+    top:5px;
+    right: 22px;
+    background-color: #dc3545;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 10px;
+    color: #fff;
+
+}
+
+.reminder-title{
+  font-weight: bold;
+  color: #fff;
+  font-size: 27px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+input , button {
+  margin: 10px 0;
+}
+
+.list-group-item{
+  margin: 5px 0 ;
+}
+
+.clearReminder {
+  margin : 10px 0;
+  cursor: pointer;
+}
+
